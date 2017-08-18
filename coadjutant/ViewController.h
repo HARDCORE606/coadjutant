@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <DDClock.h>
+#import "alarmViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *table;
+@property (weak, nonatomic) IBOutlet UILabel *locLbl;
+@property (weak, nonatomic) IBOutlet UILabel *tempLbl;
+@property (weak, nonatomic) IBOutlet UILabel *weatherLbl;
 
 
 @end

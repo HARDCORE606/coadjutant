@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECFC4C1AFA202E6A2A34668F /* libPods-coadjutant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38160AA158940CBFC33C7C1C /* libPods-coadjutant.a */; };
 		F9D5C3D41F46CAB60063D5A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C3D31F46CAB60063D5A1 /* main.m */; };
 		F9D5C3D71F46CAB60063D5A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C3D61F46CAB60063D5A1 /* AppDelegate.m */; };
 		F9D5C3DA1F46CAB60063D5A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C3D91F46CAB60063D5A1 /* ViewController.m */; };
@@ -16,6 +17,13 @@
 		F9D5C3E51F46CAB60063D5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D5C3E31F46CAB60063D5A1 /* LaunchScreen.storyboard */; };
 		F9D5C3F01F46CAB60063D5A1 /* coadjutantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C3EF1F46CAB60063D5A1 /* coadjutantTests.m */; };
 		F9D5C3FB1F46CAB60063D5A1 /* coadjutantUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C3FA1F46CAB60063D5A1 /* coadjutantUITests.m */; };
+		F9D5C40A1F46D18D0063D5A1 /* alarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C4091F46D18D0063D5A1 /* alarmViewController.m */; };
+		F9D5C40D1F46E9C60063D5A1 /* weeklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C40C1F46E9C60063D5A1 /* weeklistViewController.m */; };
+		F9D5C4101F46E9EB0063D5A1 /* soundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C40F1F46E9EB0063D5A1 /* soundsViewController.m */; };
+		F9D5C4131F46EA180063D5A1 /* labelAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C4121F46EA180063D5A1 /* labelAlarmViewController.m */; };
+		F9D5C4151F46EC0D0063D5A1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5C4141F46EC0D0063D5A1 /* AVFoundation.framework */; };
+		F9D5C4171F46ECD00063D5A1 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = F9D5C4161F46ECD00063D5A1 /* sounds */; };
+		F9D5C41A1F46F89F0063D5A1 /* labelAlarmTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C4191F46F89F0063D5A1 /* labelAlarmTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01EE7C28F0D50FB276E75956 /* Pods-coadjutant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coadjutant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coadjutant/Pods-coadjutant.debug.xcconfig"; sourceTree = "<group>"; };
+		38160AA158940CBFC33C7C1C /* libPods-coadjutant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coadjutant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AFF4EE0C5540D779F6A0AC /* Pods-coadjutant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coadjutant.release.xcconfig"; path = "Pods/Target Support Files/Pods-coadjutant/Pods-coadjutant.release.xcconfig"; sourceTree = "<group>"; };
 		F9D5C3CF1F46CAB60063D5A1 /* coadjutant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coadjutant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D5C3D31F46CAB60063D5A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9D5C3D51F46CAB60063D5A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +64,18 @@
 		F9D5C3F61F46CAB60063D5A1 /* coadjutantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coadjutantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D5C3FA1F46CAB60063D5A1 /* coadjutantUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coadjutantUITests.m; sourceTree = "<group>"; };
 		F9D5C3FC1F46CAB60063D5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D5C4081F46D18D0063D5A1 /* alarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alarmViewController.h; sourceTree = "<group>"; };
+		F9D5C4091F46D18D0063D5A1 /* alarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alarmViewController.m; sourceTree = "<group>"; };
+		F9D5C40B1F46E9C60063D5A1 /* weeklistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weeklistViewController.h; sourceTree = "<group>"; };
+		F9D5C40C1F46E9C60063D5A1 /* weeklistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weeklistViewController.m; sourceTree = "<group>"; };
+		F9D5C40E1F46E9EB0063D5A1 /* soundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundsViewController.h; sourceTree = "<group>"; };
+		F9D5C40F1F46E9EB0063D5A1 /* soundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = soundsViewController.m; sourceTree = "<group>"; };
+		F9D5C4111F46EA180063D5A1 /* labelAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = labelAlarmViewController.h; sourceTree = "<group>"; };
+		F9D5C4121F46EA180063D5A1 /* labelAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = labelAlarmViewController.m; sourceTree = "<group>"; };
+		F9D5C4141F46EC0D0063D5A1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F9D5C4161F46ECD00063D5A1 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
+		F9D5C4181F46F89F0063D5A1 /* labelAlarmTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = labelAlarmTableViewCell.h; sourceTree = "<group>"; };
+		F9D5C4191F46F89F0063D5A1 /* labelAlarmTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = labelAlarmTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D5C4151F46EC0D0063D5A1 /* AVFoundation.framework in Frameworks */,
+				ECFC4C1AFA202E6A2A34668F /* libPods-coadjutant.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +105,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00AB91CBBF881D4C919D086D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01EE7C28F0D50FB276E75956 /* Pods-coadjutant.debug.xcconfig */,
+				86AFF4EE0C5540D779F6A0AC /* Pods-coadjutant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7FA1FA27AF205DB9EC294BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9D5C4141F46EC0D0063D5A1 /* AVFoundation.framework */,
+				38160AA158940CBFC33C7C1C /* libPods-coadjutant.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9D5C3C61F46CAB60063D5A1 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +130,8 @@
 				F9D5C3EE1F46CAB60063D5A1 /* coadjutantTests */,
 				F9D5C3F91F46CAB60063D5A1 /* coadjutantUITests */,
 				F9D5C3D01F46CAB60063D5A1 /* Products */,
+				00AB91CBBF881D4C919D086D /* Pods */,
+				C7FA1FA27AF205DB9EC294BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +152,13 @@
 				F9D5C3D61F46CAB60063D5A1 /* AppDelegate.m */,
 				F9D5C3D81F46CAB60063D5A1 /* ViewController.h */,
 				F9D5C3D91F46CAB60063D5A1 /* ViewController.m */,
+				F9D5C4081F46D18D0063D5A1 /* alarmViewController.h */,
+				F9D5C4091F46D18D0063D5A1 /* alarmViewController.m */,
+				F9D5C40E1F46E9EB0063D5A1 /* soundsViewController.h */,
+				F9D5C40F1F46E9EB0063D5A1 /* soundsViewController.m */,
+				F9D5C40B1F46E9C60063D5A1 /* weeklistViewController.h */,
+				F9D5C40C1F46E9C60063D5A1 /* weeklistViewController.m */,
+				F9D5C41B1F46F8AC0063D5A1 /* labelViewController */,
 				F9D5C3DB1F46CAB60063D5A1 /* Main.storyboard */,
 				F9D5C3E11F46CAB60063D5A1 /* Assets.xcassets */,
 				F9D5C3E31F46CAB60063D5A1 /* LaunchScreen.storyboard */,
@@ -120,6 +172,7 @@
 		F9D5C3D21F46CAB60063D5A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F9D5C4161F46ECD00063D5A1 /* sounds */,
 				F9D5C3D31F46CAB60063D5A1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +196,17 @@
 			path = coadjutantUITests;
 			sourceTree = "<group>";
 		};
+		F9D5C41B1F46F8AC0063D5A1 /* labelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F9D5C4111F46EA180063D5A1 /* labelAlarmViewController.h */,
+				F9D5C4121F46EA180063D5A1 /* labelAlarmViewController.m */,
+				F9D5C4181F46F89F0063D5A1 /* labelAlarmTableViewCell.h */,
+				F9D5C4191F46F89F0063D5A1 /* labelAlarmTableViewCell.m */,
+			);
+			name = labelViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9D5C3FF1F46CAB60063D5A1 /* Build configuration list for PBXNativeTarget "coadjutant" */;
 			buildPhases = (
+				C852977D3153E77F7DD57BBD /* [CP] Check Pods Manifest.lock */,
 				F9D5C3CB1F46CAB60063D5A1 /* Sources */,
 				F9D5C3CC1F46CAB60063D5A1 /* Frameworks */,
 				F9D5C3CD1F46CAB60063D5A1 /* Resources */,
+				D7DB13770D76FE4FF538D220 /* [CP] Embed Pods Frameworks */,
+				57FFA847000047DDF12F2BD2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +321,7 @@
 			files = (
 				F9D5C3E51F46CAB60063D5A1 /* LaunchScreen.storyboard in Resources */,
 				F9D5C3E21F46CAB60063D5A1 /* Assets.xcassets in Resources */,
+				F9D5C4171F46ECD00063D5A1 /* sounds in Resources */,
 				F9D5C3DD1F46CAB60063D5A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,15 +342,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57FFA847000047DDF12F2BD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coadjutant/Pods-coadjutant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C852977D3153E77F7DD57BBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7DB13770D76FE4FF538D220 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coadjutant/Pods-coadjutant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9D5C3CB1F46CAB60063D5A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D5C4101F46E9EB0063D5A1 /* soundsViewController.m in Sources */,
+				F9D5C4131F46EA180063D5A1 /* labelAlarmViewController.m in Sources */,
 				F9D5C3E01F46CAB60063D5A1 /* coadjutant.xcdatamodeld in Sources */,
 				F9D5C3DA1F46CAB60063D5A1 /* ViewController.m in Sources */,
+				F9D5C41A1F46F89F0063D5A1 /* labelAlarmTableViewCell.m in Sources */,
+				F9D5C40D1F46E9C60063D5A1 /* weeklistViewController.m in Sources */,
 				F9D5C3D71F46CAB60063D5A1 /* AppDelegate.m in Sources */,
 				F9D5C3D41F46CAB60063D5A1 /* main.m in Sources */,
+				F9D5C40A1F46D18D0063D5A1 /* alarmViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +550,7 @@
 		};
 		F9D5C4001F46CAB60063D5A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EE7C28F0D50FB276E75956 /* Pods-coadjutant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HUTJP384C3;
@@ -441,6 +563,7 @@
 		};
 		F9D5C4011F46CAB60063D5A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86AFF4EE0C5540D779F6A0AC /* Pods-coadjutant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HUTJP384C3;
@@ -520,6 +643,7 @@
 				F9D5C4011F46CAB60063D5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9D5C4021F46CAB60063D5A1 /* Build configuration list for PBXNativeTarget "coadjutantTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +652,7 @@
 				F9D5C4041F46CAB60063D5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9D5C4051F46CAB60063D5A1 /* Build configuration list for PBXNativeTarget "coadjutantUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +661,7 @@
 				F9D5C4071F46CAB60063D5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,0 +1,3 @@
+target 'coadjutant' do
+  pod 'DDClock', '~> 1.0'
+end
